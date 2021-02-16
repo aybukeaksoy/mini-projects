@@ -19,6 +19,7 @@ while True:
     operation=input("Choose an operation(1,2,3,4,5):")
     if operation=="q":
         print("THANKS FOR VISITING OUR LIBRARY!")
+        library.disconnection()
         break
 
     elif operation=="1":
